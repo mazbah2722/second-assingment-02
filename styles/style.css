@@ -34,6 +34,9 @@
 
     background-color: rgb(17, 17, 17);
 }
+.habit-section{
+    background-color: rgb(0, 0, 0);
+}
 
 /*shared css end */
 
@@ -150,7 +153,7 @@
 }
 
 #card-1-p {
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
     font-size: 16px;
 }
@@ -173,9 +176,10 @@
     font-size: 16px;
 }
 #card-2-p {
-    color: white;
+    
     font-weight: 400;
     font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
 }
 #card-2-h1 {
     color: white;
@@ -184,10 +188,50 @@
 }
 
 #card-2-p {
-    color: white;
+    
     font-weight: 400;
     font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 
 /*banner end */
+
+/* habit section start */
+.habit-section{
+    padding:  100px 0;
+}
+.habit-container{
+    color: white;
+    width: 68%;
+    margin: 0 auto;
+}
+.habit-container h1 , p{
+    text-align: center;
+}
+.habit-section h1{
+    font-size: 24px;
+    font-weight: 900;
+    margin: 16px 0;
+}
+.habit-section p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.habit-card-container{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.habit-card img{
+   width: 100%;
+   object-fit: cover;
+}
+.habit-img img{
+    border-radius: 50%;
+}
+/* habit section end */

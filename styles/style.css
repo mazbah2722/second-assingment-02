@@ -1,52 +1,193 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-*{
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+* {
     margin: 0;
     padding: 0;
-    
+
 }
+
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    
+
     font-style: normal;
-  }
+}
+
+.btn {
+    padding: 14px 30px;
+    border-radius: 26px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+
 
 /*shared css start */
-.header{
-    
+.display-none {
+    display: none;
+}
+
+.header,
+.banner {
+
     background-color: rgb(17, 17, 17);
 }
+
 /*shared css end */
 
 /* navbar start */
-.nav-container{
+.nav-container,
+.banner {
     width: 68%;
     margin: 0 auto;
     padding: 20px 0;
 }
-.div-nav{
+
+.div-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
-.nav-left h1{
+
+.nav-left h1 {
     font-size: 36px;
     color: rgb(230, 83, 60);
     font-weight: 800;
 }
 
-.nav-right a{
+.nav-right a {
     text-decoration: none;
     margin-right: 20px;
     color: white;
     font-size: 18px;
     font-weight: 400;
 }
+
+.icons-bar {
+    color: white;
+    display: none;
+}
+
 /* .nav-right a:hover{
     background-color: rgb(230, 83, 60);
     padding: 6px;
     border-radius: 10px;
 } */
 /* navbar end */
+
+/*banner start */
+.banner {
+    margin-top: 50px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-child1 h1 {
+    color: white;
+    font-size: 68px;
+    font-weight: 900;
+}
+
+.banner-child1 p {
+    color: white;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.banner-child1 h1 span {
+    font-family: 'Miama', sans-serif;
+
+}
+
+#banner-btn1 {
+    background-color: rgb(230, 83, 60);
+    margin-right: 20px;
+}
+
+#banner-btn2 {
+    background-color: rgba(0, 0, 0, 0.582);
+    border: 1px solid white;
+}
+
+.banner-child2 img {
+    width: 100%;
+}
+
+.card-btn-1 {
+    position: absolute;
+    background-color: rgba(48, 48, 48, 0.54);
+    bottom: 10%;
+    border: none;
+    border-radius: 12px;
+}
+
+.card-btn-1-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-circle {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+#card-1-h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+#card-1-p {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card-btn-2-container {
+   text-align: start;
+    padding: 20px;
+}
+.card-btn-2 {
+    position: absolute;
+    background-color: rgba(48, 48, 48, 0.54);
+    top: 30%;
+    right: -10%;
+    border: none;
+    border-radius: 12px;
+}
+#card-2-h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+#card-2-p {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+#card-2-h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+#card-2-p {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+/*banner end */

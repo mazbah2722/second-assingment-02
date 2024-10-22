@@ -56,6 +56,26 @@
         grid-template-columns: repeat(1 ,1fr);
        
     }
+    .run-container{
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .run-btn{
+        width: 100%;
+    }
+    .bmi-child {
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .select-2 {
+        width: 100%;
+        color: rgba(37, 25, 25, 0.534);
+        
+    }
+    td {
+        padding: 10px 20px;
+    }
+   
     
 }
 @media screen and (min-width: 576px) and (max-width: 992px)  {
@@ -74,5 +94,17 @@
        
         grid-template-columns: repeat(2, 1fr);
        
+    }
+    .run-btn{
+        width: 100%;
+    }
+    .select-2 {
+        width: 100%;
+        color: rgba(37, 25, 25, 0.534);
+        
+    }
+    .bmi-child {
+        grid-template-columns: repeat(1, 1fr);
+        
     }
 };

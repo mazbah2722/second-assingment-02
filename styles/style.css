@@ -34,7 +34,9 @@
 
     background-color: rgb(17, 17, 17);
 }
-.habit-section{
+
+.habit-section,
+.run-section {
     background-color: rgb(0, 0, 0);
 }
 
@@ -159,9 +161,10 @@
 }
 
 .card-btn-2-container {
-   text-align: start;
+    text-align: start;
     padding: 20px;
 }
+
 .card-btn-2 {
     position: absolute;
     background-color: rgba(48, 48, 48, 0.54);
@@ -170,17 +173,20 @@
     border: none;
     border-radius: 12px;
 }
+
 #card-2-h1 {
     color: white;
     font-weight: 400;
     font-size: 16px;
 }
+
 #card-2-p {
-    
+
     font-weight: 400;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.5);
 }
+
 #card-2-h1 {
     color: white;
     font-size: 24px;
@@ -188,7 +194,7 @@
 }
 
 #card-2-p {
-    
+
     font-weight: 400;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.5);
@@ -198,40 +204,169 @@
 /*banner end */
 
 /* habit section start */
-.habit-section{
-    padding:  100px 0;
+.habit-section {
+    padding: 100px 0;
 }
-.habit-container{
+
+.habit-container {
     color: white;
     width: 68%;
     margin: 0 auto;
 }
-.habit-container h1 , p{
+
+.habit-container h1,
+p {
     text-align: center;
 }
-.habit-section h1{
+
+.habit-section h1 {
     font-size: 24px;
     font-weight: 900;
     margin: 16px 0;
 }
-.habit-section p{
+
+.habit-section p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
     margin-top: 10px;
 }
-.habit-card-container{
+
+.habit-card-container {
     display: grid;
-    grid-template-columns: repeat(4 ,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 40px;
     margin-top: 50px;
 }
 
-.habit-card img{
-   width: 100%;
-   object-fit: cover;
+.habit-card img {
+    width: 100%;
+    object-fit: cover;
 }
-.habit-img img{
+
+.habit-img img {
     border-radius: 50%;
 }
+
 /* habit section end */
+/* run section start */
+.run-container {
+    width: 68%;
+    margin: 0 auto;
+    padding: 40px 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 33px;
+}
+
+.run-btn {
+    background-color: rgb(230, 83, 60);
+    margin-right: 20px;
+}
+
+.run-child h1 {
+    text-align: start;
+    font-size: 44px;
+    font-weight: 900;
+}
+
+.run-child p {
+    text-align: start;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 16px 0;
+
+}
+
+.run-child img {
+    width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+/* run section end */
+
+/* bmi section start */
+.bmi-section {
+    color: white;
+
+}
+
+.bmi-header-container {
+    background-color: rgb(0, 0, 0);
+}
+
+.bmi-header {
+    width: 40%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.header-child h1{
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.bmi-child-container {
+    background-color: rgb(34, 34, 34);
+    padding: 40px 0;
+}
+
+.bmi-child {
+    width: 68%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.bmi-child-right h1, .bmi-child-right p{
+    text-align: start;
+}
+.bmi-child-right h1{
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+.table-title {
+    margin-bottom: 30px;
+}
+
+table,
+tr,
+td,
+th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+th,
+td {
+    padding: 20px 40px;
+}
+
+.td {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.row-1 , .row-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 33px;
+    
+    
+}
+.row-2, .row-3{
+    margin-top: 10px;
+}
+.row-1 input , .row-2 input, .row-3 input{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+    
+
+
+
+/* bmi section end */

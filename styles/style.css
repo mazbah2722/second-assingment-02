@@ -452,3 +452,24 @@ td {
     color: rgba(255, 255, 255, 0.5);
 }
 /* footer section end  */
+/* uniq section start */
+.uniq-section{
+    background-color: rgb(0, 0, 0);
+    padding: 50px 0;
+}
+.uniq-container{
+    width: 68%;
+    margin: 0 auto;
+}
+.sub-uniq-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.uniq-text h1{
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* uniq section end */
